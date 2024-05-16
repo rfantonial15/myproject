@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [
     'caloy.pythonanywhere.com',
     'ethscans.io',
     '127.0.0.1',
+    '.vercel.app'
 ]
 
 
