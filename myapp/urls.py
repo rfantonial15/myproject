@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from myapp.views import KeyLogViewSet, KeyLogRevokeViewSet, KeyLogArbiscanViewSet
+from .views import KeyLogViewSet, KeyLogRevokeViewSet, KeyLogArbiscanViewSet
 
 # Create a router and register your viewsets
 router = DefaultRouter()
