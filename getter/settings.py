@@ -104,7 +104,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'myproject.wsgi.application'
+WSGI_APPLICATION = 'getter.wsgi.application'
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = None
 
